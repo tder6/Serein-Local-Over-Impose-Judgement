@@ -9,7 +9,7 @@ A local judgement for [NOI Linux](https://www.noi.cn/gynoi/jsgz/2021-07-16/73245
 In OI competitions, we often encounter the following questions: How to evaluate my score locally? How to quickly compare when my test point has a large amount of data? How can I determine the time spent on my program?
 Our project can effectively solve all these problems
 
-## What can do
+## Usage
 
 - Automatically compile and run the given program and input and answer files, judge the results, and return the runtime
 - Judge $\color{green}\texttt{[AC]}$, $\color{red}\texttt{[WA]}$, $\color{gold}\texttt{[CE]}$, $\color{teal}\texttt{[TLE]}$ and other situations
@@ -31,6 +31,19 @@ Make sure that the following programs are all installed on your computer:
 
 - Terminal
 - gcc/g++
+
+## Upcoming
+
+We are about to launch the following features:
+
+- Various parameters and options, such as:
+  - Compilation options like `-O2` and `-std=c++14`
+  - Simplify output
+  - Hide or delete temporary files such as output files and compiled files
+  - Comparison options like `-i` and `-B`
+- Judge $\color{blue}\texttt{[MLE]}$, $\color{violet}\texttt{[RE]}$, $\color{gray}\texttt{[PE]}$ and other situations
+- Automatically terminate the program after exceeding the time limit to prevent infinite loops
+- Special judgements like `SPJ checker` and `Interactor`
 
 ## Thanks
 
