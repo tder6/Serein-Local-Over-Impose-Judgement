@@ -21,7 +21,7 @@ In order to use it, you need to prepare your program and test points. Please che
 
 Here are the simplified install methods:
 
-- Download .zip
+- [Download .zip](https://github.com/tder6/Serein-Local-Over-Impose-Judgement/archive/refs/heads/main.zip)
 - Unzip it
 - Run setup to install
 
